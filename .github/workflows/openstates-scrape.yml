@@ -1,8 +1,8 @@
 name: OpenStates Scrape for va
 
 on:
-  schedule:
-    - cron: "0 16 * * *"  # Daily at 4:00 PM UTC (10:00 AM Chicago time)
+  # schedule:
+  #   - cron: "0 16 * * *"  # Daily at 4:00 PM UTC (10:00 AM Chicago time)
   workflow_dispatch:
     inputs:
       force-update:
